@@ -1,5 +1,9 @@
 # Databricks notebook source
-# MAGIC %run ./my_funcs
+from my_lib.my_funcs import *
+
+# COMMAND ----------
+
+# MAGIC %run ./my_lib/my_funcs
 
 # COMMAND ----------
 
