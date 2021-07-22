@@ -52,3 +52,11 @@ display(df.select(roundedTemp("unit", "temp")))
 # COMMAND ----------
 
 display(df.select(convertFtoC("unit", "temp")))
+
+# COMMAND ----------
+
+# MAGIC %md simple comment
+
+# COMMAND ----------
+
+# MAGIC %md simple line for commit to feature branch
