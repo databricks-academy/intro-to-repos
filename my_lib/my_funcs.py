@@ -1,3 +1,4 @@
+#Databricks edit to see changes in repo
 def convertFtoC(unitCol, tempCol):
     from pyspark.sql.functions import when, col
     return when(col(unitCol) == "F", (col(tempCol) - 32) * (5/9)).otherwise(col(tempCol)).alias("temp_celcius")
