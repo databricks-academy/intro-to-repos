@@ -44,4 +44,4 @@ display(df.select(convertFtoC("unit", "temp")))
 
 # COMMAND ----------
 
-# This is a test
+# End of demo
