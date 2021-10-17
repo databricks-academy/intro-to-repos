@@ -1,16 +1,5 @@
 # Databricks notebook source
 # MAGIC %md
-# MAGIC **NOTE**: the following cell _**should**_ fail.
-# MAGIC 
-# MAGIC Relative imports of Python libraries are currently not supported. ([Custom libraries can be uploaded to the workspace or installed from PyPi](https://docs.databricks.com/libraries/workspace-libraries.html).)
-
-# COMMAND ----------
-
-from my_lib.my_funcs import *
-
-# COMMAND ----------
-
-# MAGIC %md
 # MAGIC Using `%run` allows you to execute a Databricks notebook in the current SparkSession, bringing any imported modules, declared variables, or defined functions into the current scope.
 # MAGIC 
 # MAGIC Note that Databricks Python notebooks are stored as normal Python files with the first line
@@ -52,3 +41,7 @@ display(df.select(roundedTemp("unit", "temp")))
 # COMMAND ----------
 
 display(df.select(convertFtoC("unit", "temp")))
+
+# COMMAND ----------
+
+# End of demo
