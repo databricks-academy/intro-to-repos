@@ -44,5 +44,5 @@ display(df.select(convertFtoC("unit", "temp")))
 
 # COMMAND ----------
 
-# This is a CICD Demo notebook for the getting worloads into production
+# This is a CICD Demo notebook for the getting workloads into production
 
