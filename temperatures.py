@@ -7,6 +7,7 @@
 # COMMAND ----------
 
 from my_lib.my_funcs import *
+# this is a test change
 
 # COMMAND ----------
 
@@ -52,3 +53,7 @@ display(df.select(roundedTemp("unit", "temp")))
 # COMMAND ----------
 
 display(df.select(convertFtoC("unit", "temp")))
+
+# COMMAND ----------
+
+
