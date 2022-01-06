@@ -1,4 +1,4 @@
-# Databricks Source Code
+# Databricks notebook source
 
 def convertFtoC(unitCol, tempCol):
     from pyspark.sql.functions import when, col
