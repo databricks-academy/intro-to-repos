@@ -59,4 +59,8 @@ df.count()
 
 # COMMAND ----------
 
+df.count()
+
+# COMMAND ----------
+
 
