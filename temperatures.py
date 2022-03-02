@@ -55,9 +55,5 @@ display(df.select(convertFtoC("unit", "temp")))
 
 # COMMAND ----------
 
-df.count()
-
-# COMMAND ----------
-
 # MAGIC %md
 # MAGIC test repo push
