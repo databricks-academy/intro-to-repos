@@ -1,2 +1,3 @@
 I'm creating a merge conflict!
-test
+other random text to conflict
+
