@@ -56,8 +56,3 @@ display(df.select(convertFtoC("unit", "temp")))
 # COMMAND ----------
 
 df.count()
-
-# COMMAND ----------
-
-#change
-
