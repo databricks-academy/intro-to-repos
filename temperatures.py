@@ -56,4 +56,4 @@ display(df.select(convertFtoC("unit", "temp")))
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC new cell 1
+# MAGIC new cell 1 2 3
