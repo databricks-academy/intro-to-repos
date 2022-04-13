@@ -1,3 +1,1 @@
-I'm creating a merge conflict!
-other random text to conflict
-
+Hello World!
