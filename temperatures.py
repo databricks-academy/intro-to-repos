@@ -6,7 +6,7 @@
 
 # COMMAND ----------
 
-from my_lib.my_funcs import *
+# from my_lib.my_funcs import *
 
 # COMMAND ----------
 
@@ -52,3 +52,21 @@ display(df.select(roundedTemp("unit", "temp")))
 # COMMAND ----------
 
 display(df.select(convertFtoC("unit", "temp")))
+
+# COMMAND ----------
+
+# MAGIC %md 
+# MAGIC 
+# MAGIC ---
+# MAGIC 
+# MAGIC markdown example
+# MAGIC 
+# MAGIC ---
+
+# COMMAND ----------
+
+df.count()
+
+# COMMAND ----------
+
+
